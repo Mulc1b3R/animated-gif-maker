@@ -36,7 +36,7 @@
 * ```python icon-qr.py```
 * animated.gif generated to output folder.
 ********************************************************************************************************************************************************************************
-[![AI Video](https://psicodata.io/CDN/mp4/ai.mp4)](https://psicodata.io/CDN/mp4/ai.mp4)
+[![AI Video](https://psicodata.io/CDN/mp4/ai.mp4)](https://psicodata.io/CDN/mp4/ai.mp4) This is the animated.gif and ai.mp3 Merged into an MP4...for scanning qr-code.
 ********************************************************************************************************************************************************************************
 # Notes
 1. Added QR Code Generation Function: 
