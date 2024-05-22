@@ -27,7 +27,8 @@
 ******************************************************************************************************************************************************************************** 
 # URL-2-QR
 
-*navigate to root dir (after copying the python scripts to the folder of your choice).
+* Navigate to root dir (after copying the python scripts to the folder of your choice).
+* Create a folder called 'input' and place the image files you want to use in the folder.
 * Edit the line in icon-qr.py ; # Specify download link for the QR code ; download_links = ["https://psicodata.io/CDN/img/animated.gif"]
 * Replace the url with the url you want to create a qr code for (in the example we create a 'strange loop' by creating a qr code of the url that leads to the animated gif !
 * The 'strange loop' is a concept introduced in the book ; Gödel, Escher, Bach: an Eternal Golden Braid, also known as GEB,  1979  by Douglas Hofstadter. 
