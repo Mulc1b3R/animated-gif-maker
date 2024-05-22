@@ -28,7 +28,8 @@
 # URL-2-QR
 
 *navigate to root dir (after copying the python scripts to the folder of your choice).
-* Edit the line in icon-qr.py ; # Specify download links for the QR codesdownload_links = ["https://example.com/download1", "https://example.com/download2"]
-* Replace the url
- 
+* Edit the line in icon-qr.py ; # Specify download link for the QR code ; download_links = ["https://psicodata.io/CDN/img/animated.gif"]
+* Replace the url with the url you want to create a qr code for (in the example we create a 'strange loop' by creating a qr code of the url that leads to the animated gif !
+* The 'strange loop' is a concept introduced in the book ; Gödel, Escher, Bach: an Eternal Golden Braid, also known as GEB,  1979  by Douglas Hofstadter. 
+* With python3 installed , in the IDE of your choice type;
 * ```python icon-qr.py```
