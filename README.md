@@ -25,3 +25,10 @@
 * is an AI voice called "Shimmer".
 * Eve is located here : https://eve-red.vercel.app/
 ******************************************************************************************************************************************************************************** 
+# URL-2-QR
+
+*navigate to root dir (after copying the python scripts to the folder of your choice).
+* Edit the line in icon-qr.py ; # Specify download links for the QR codesdownload_links = ["https://example.com/download1", "https://example.com/download2"]
+* Replace the url
+ 
+* ```python icon-qr.py```
