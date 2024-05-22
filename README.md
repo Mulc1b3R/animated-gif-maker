@@ -91,6 +91,8 @@ Copyright © 2023 Psico Communications and Blockchain Development.
 
 Licensed under the Apache License, Version 2.0
 ************************************************************************************************************************************************************************************************
+The concept , name and creation method of "Info-cons" are the intellectual property of Psico Communications and Blockchain Development.
+
 MULCIBER
 
 ```
