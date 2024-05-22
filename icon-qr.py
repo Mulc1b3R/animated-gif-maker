@@ -50,7 +50,7 @@ output_folder_path = "output"
 os.makedirs(output_folder_path, exist_ok=True)
 
 # Specify download links for the QR codes
-download_links = ["https://example.com/download1", "https://example.com/download2"]
+download_links = ["https://psicodata.io/CDN/img/animated.gif"]
 
 # Specify the output animated GIF file
 output_gif = os.path.join(output_folder_path, "animated_images.gif")
