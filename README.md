@@ -34,3 +34,67 @@
 * The 'strange loop' is a concept introduced in the book ; Gödel, Escher, Bach: an Eternal Golden Braid, also known as GEB,  1979  by Douglas Hofstadter. 
 * With python3 installed , in the IDE of your choice type;
 * ```python icon-qr.py```
+* animated.gif generated to output folder.
+********************************************************************************************************************************************************************************
+# Notes
+1. Added QR Code Generation Function: 
+
+    - `create_qr_code_with_links(links, qr_size=128)
+	
+: This function generates QR codes based on the input URLs and resizes them to a specified size.
+
+2. Incorporating QR Codes in Animated GIF:
+
+ - QR codes generated from the input URLs are stored in `qr_code_images`
+ 
+ - The QR code images are added to the `images` list along with the resized images from the input folder files.
+
+3.Updated `create_animated_gif_from_images` Function:
+
+ - Along with resizing and adding images, the function now includes QR code images generated from the 
+ 
+ download links.
+
+4. Specifying Download Links and Output Size:
+
+ - `download_links`: List of URLs used to generate QR codes.
+ 
+ - `output_size`: Size for resizing the images and QR codes.
+
+5. Generating Animated GIF:
+
+ - The `imageio.mimsave` function is used to create the final animated GIF with a duration of
+
+0.5 seconds per frame.
+
+6. Usage Instructions:
+
+ - Update `input_folder_path`, `output_folder_path`, and other variables as needed.
+	
+ - The script processes images from the input folder, generates QR codes for the specified URLs,
+
+combines them, and produces an animated GIF.
+
+This script allows you to create animated GIFs that include both images from the input folder and QR codes
+
+ linked to download URLs.
+
+ You can run this script similarly to ,
+ 
+ adapting it to create animated GIFs with a blend of images and QR codes based on your requirements.
+
+ ***********************************************************************************************************************************************************************************************
+
+ metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
+  
+Copyright © 2023 Psico Communications and Blockchain Development.
+
+Licensed under the Apache License, Version 2.0
+************************************************************************************************************************************************************************************************
+MULCIBER
+
+```
+MADE IN YORKSHIRE
+```
+
+
